@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Mark Cho</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="lib/jqueryui/css/custom-theme/jquery-ui-1.8.11.custom.css" />
+    <script type="text/javascript" src="lib/jqueryui/js/jquery-1.5.1.min.js"></script>
+    <script type="text/javascript" src="lib/jqueryui/js/jquery-ui-1.8.11.custom.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-27080990-1']);
+          _gaq.push(['_trackPageview']);
+
+            (function() {
+                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                           })();
+
+    </script>
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <div id="nameHeader">Mark Cho</div>
+      <div id="descriptionHeader">Software Engineering @ University of Waterloo</div>
+      <div id="navContainer">
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_Home">Home</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_AboutMe">About Me</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_Blog">Blog</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_Facebook">Facebook</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_LinkedIn">LinkedIn</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_Resume">Resume</button></small></div>
+        <div class="buttonContainer"><small><button type="button" class="navButton" id="nav_Contact">Contact</button></small></div>
+      </div>
+      <div class="content" id="homePanel"><div class="panelHeader">Home</div><div class="divider"></div><div class="panelContent">Welcome to my web site! You can find a quick summary about myself in "About Me" section while you can find technical information in my resume.<br /><br />You can contact me through email (available in "Contact" section) or through LinkedIn/Facebook.<br /><br />If you're bored or if you want to hear what I have to say regarding anything in life, from software development to ice hockey, feel free to visit my blog.<br /><br />Cheers!<br />Mark</div></div>
+      <div class="content" id="aboutMePanel"><div class="panelHeader">About Me</div><div class="divider"></div><div class="panelContent" id="aboutMeContent">Hello, my name is Mark Cho and I'm currently in my 2nd year (2B) of Software Engineering at the University of Waterloo.<br /><br />During the last 2 years (2010-2011), I spent 2 coop work terms (8 months) at Aria Solutions Inc. in Calgary. While I was at Aria Solutions, some of the major projects I worked on includes developing a custom script executor extension for two different products using C# and JavaScript and developing an automated test framework and a load test application, both products in C#.
+      I'm also familiar with C/C++, as I've done most of my coursework at school and personal projects using these languages.<br /><br />During my spare time, I enjoy playing video games such as Starcraft II and the NHL series. Through computer games, I've done some projects using VBScript and AutoIt to develop extensions and mods.
+      Besides gaming, my hobbies also include playing sports, especially hockey and snowboarding during the winter season.<br /><br />For detailed information regarding my software engineering skills, please see my resume (link available on the navigation menu).</div></div>
+      <div class="content" id="contactPanel"><div class="panelHeader">Contact</div><div class="divider"></div><div class="panelContent"><img id="email" src="email.png" /></div></div>
+      <div class="content" id="loadingPanel"><div id="loadingBar">loading...</div></div>
+      <div id="footer">Copyright &copy; 2011 | Mark Cho</div>
+    </div>
+  </body>
+</html>

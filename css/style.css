@@ -1,0 +1,18 @@
+body { background-color:#101010; font-family:Verdana; }
+
+#nameHeader { color:#DDDDDD; font-size:250%; margin:10px 0px 0px 0px; font-variant:small-caps; font-weight:bold; }
+#descriptionHeader { color:#AAAAAA; font-size:100%; margin:0px 0px 10px 0px; }
+#footer { color:#AAAAAA; clear:both; margin:0px; font-size:75%; }
+
+#mainContainer { margin-left:auto; margin-right:auto; width:650px; }
+#navContainer { float:left; height:400px; margin-right:5px; }
+.buttonContainer { display:block; width:100px; }
+.navButton { width:100px; height:50px; margin-bottom:8px; }
+
+.content { float:left; width:500px; height:400px; background-color:#303030; border-radius:20px; }
+.content #loadingBar { width:300px; height:22px; border-radius:10px; margin-left:auto; margin-right:auto; margin-top:175px; text-align:center; font-variant:small-caps; color: #000000; font-weight:bold; background-image:url('http://www.markcho.ca/lib/images/pbar-ani.gif'); }
+
+.panelHeader { color:#AAAAAA; font-size:200%; margin:10px 20px; font-variant:small-caps; font-weight:bold; }
+.divider { width:350px; height:3px; background-color:#707070; margin-top:5px; margin-bottom:5px; margin-left:auto; margin-right:auto; border-radius:2px; }
+.panelContent { color:#777777; margin: 20px; text-align:justify; }
+#aboutMeContent { font-size:75%; }
