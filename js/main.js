@@ -10,12 +10,8 @@ function Main() {
     changePanel($("#aboutMePanel"));
   }
 
-  function nav_Blog() {
-    launchLink("/blog");
-  }
-
   function nav_GitHub() {
-    launchLink("https://github.com/markcho");
+    launchLink("https://www.github.com/markcho");
   }
 
   function nav_Facebook() {
@@ -58,7 +54,7 @@ function Main() {
 
     $("#nav_Home").click(nav_Home);
     $("#nav_AboutMe").click(nav_AboutMe);
-    $("#nav_Blog").click(nav_Blog);
+    $("#nav_GitHub").click(nav_GitHub);
     $("#nav_Facebook").click(nav_Facebook);
     $("#nav_LinkedIn").click(nav_LinkedIn);
     $("#nav_Resume").click(nav_Resume);
